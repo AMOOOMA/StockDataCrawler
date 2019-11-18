@@ -73,7 +73,7 @@ public class MyCrawler extends WebCrawler {
     private void writeCSV(String date, String val, String changePer, String quoteName) {
         int index = val.indexOf(",");
         while (index != -1) {
-            val = val.substring(0, index) + "." + val.substring(index + 1, val.length());
+            val = val.substring(0, index) + val.substring(index + 1, val.length());
             index = val.indexOf(",");
         }
         try {
