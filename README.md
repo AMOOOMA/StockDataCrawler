@@ -1,6 +1,6 @@
 # StockDataCrawler
 Implementation of the [crawler4j repo](https://github.com/yasserg/crawler4j). </br>
-Extract stock exchange data from Wall Street Journal. </br>
+Extract stock exchange data from Wall Street Journal. Archived Data is in [here](StockCrawler/out/artifacts/StockCrawler_jar). </br>
 
 ## Getting Started
 Current Implementation gathers data of Microsoft, Google and Amazon's minutely update quote. </br> 
@@ -52,3 +52,6 @@ Note: the shouldVisit method contains a String representing the domain that you 
 ### Controller class
 The controller controls the crawler, mainly using config to make the crawler behave. </br>
 Go to the [crawler4j repo](https://github.com/yasserg/crawler4j) for more explanation.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
